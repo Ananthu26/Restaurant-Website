@@ -1,0 +1,133 @@
+
+
+/* ******************************************* */
+@media screen and (max-width:800px) {
+
+/* 800 full parent nav */
+nav{
+    position: relative;
+    background-color:gold;
+        background: gold;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+/*800 nav for logo */
+nav #logo {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 0;
+    
+}
+
+nav #check ,nav .icons{
+    position: relative;
+    float:right;
+    
+    border-top:0px ;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px 30px 10px 10px;
+}
+
+nav #check{
+     display: none;      /* trust me it works , its hidden but there!!!!*/
+} 
+
+.icons{display: flex;}   /*this icons guys are flexing on screen but cancel is hiding*/
+#cancel{display:none}
+
+/* toggle icons checkbox*/
+#check:checked~.icons #menu{  /* if checkbox #check id is checked the hide menu #menu*/
+    display: none;
+}
+#check:checked~.icons #cancel{ /* if checkbox #check id is unchecked  the hide menu #cancel*/
+    display:block;
+}
+
+#check:checked~.navbar{ /*check checked sign then navbar drop*/
+    display:block;
+    height:15rem;
+    z-index: 4;
+}
+#check:checked~.main-nav{ /*check checked sign then navbar drop*/
+    color:rgb(255, 0, 0)
+}
+#check:checked~nav-container{ /*check checked sign then navbar drop*/
+    color:rgb(255, 0, 0)
+}
+/* 800bottom nav of nav-container */
+    .navbar{
+        display:none;
+        position: absolute;
+        width: 100%;
+        top:100%;
+        left:0;
+        background-color:gold;
+        z-index: 100;
+        }
+    .navbar a{
+        display:block;
+        font-size: 1rem;
+        margin:1rem 0px;
+        text-align: center;
+
+        
+    }
+    button{
+        
+        padding:0;
+        border: 0px;
+        font-family: "Galindo", sans-serif;
+        font-size:16px ;
+        font-weight: bold;
+        border:2px black solid;
+        
+    
+    } 
+    /* when dropdown menu is checked , padding on left and right of bottom llacked yellow color*/
+     #button-side{
+        border: 0;
+        margin: 0;
+        padding-bottom: 0;
+        background: gold;
+     }
+     #button-side a:hover{
+        background-color: rgb(0, 0, 0);
+        color: gold;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+
+@media screen and (min-width:800px) {
+/* main nav */
+
+.nav-container {
+    padding: 15px 0px;
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+
+}
+#check ,.icons{
+    display: none;
+}
+/* top nav for logo */
+
+/* inside main-nav image  */
+
+#logo {
+    margin: 0px 0px 16px;
+    display: block;
+    margin: auto;
+    height: 88px;
+    width: 300px;
+    padding: 0;
+    border: 0;
+}
+
+/* bottom nav of nav-container */
+nav{
+    position: block;
+    text-align: center;
+}
+a{
+    background-color:#ffd90049 ;
+    padding: 3.2px 6.4px;                                   
+    font-family: "Galindo", sans-serif;
+}
+ul{
+    margin-top: 0;
+}
+li{
+    display: inline-block;
+    font-size:16px ;
+    font-weight: 600;
+    margin: 10px;
+
+}
+/* li:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+} */  /* this was main slight black color for main desktop screen */
+}

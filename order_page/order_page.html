@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Nav/Style_max800px.css">
+  <link rel="stylesheet" href="../Nav/style_min800px.css">
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="order_page.css">
+
+
+</head>
+
+<body>
+  <header class="nav-container">
+    <nav class="main-nav">
+      <img src="../Images/logo.png" id="logo" onclick="window.location.href='../index.html';">
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i id="menu" class='bx bx-menu-alt-right'></i>
+        <i id="cancel" class='bx bx-x'></i>
+      </label>
+
+      <!-- Resposive akk and also make it sticky -->
+
+      <ul class="navbar">
+        <li><a href="../Menu/index.html">MENUS</a></li>
+        <li><a href="">CATERING</a></li>
+        <li><a href="">LOCATION</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <!-- Button  Akkiyal kollam-->
+        <li id="button-side"><button><a href="../order_page/order_page.html">ORDER ONLINE</a></button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+
+
+
+
+
+
+
+  <section class="divide_order_page">
+    <div class="image-zoom-container">
+
+      <div class="heading">
+        <p></p>
+      </div>
+
+
+      <div class="container">
+        <!-- Left Grid for Fast Food Menu -->
+        <div class="menu">
+          <div class="menu-item">
+            <img src="../Images/food1.jpg" alt="Food 1" class="food-image">
+            <h3 class="">Burger</h3>
+            <p class="food-price">$5.99</p>
+          </div>
+          <div class="menu-item">
+            <img src="../Images/food2.jpg" alt="Food 2" class="food-image">
+            <h3 class="food-name">Pizza</h3>
+            <p class="food-price">$8.99</p>
+          </div>
+          <div class="menu-item">
+            <img src="../Images/food3.jpg" alt="Food 3" class="food-image">
+            <h3 class="food-name">Fries</h3>
+            <p class="food-price">$2.99</p>
+          </div>
+         </div>
+
+
+
+
+
+
+
+         <div class="order-form">
+          <h2>Order Food</h2>
+          <form>
+            <label for="name">Customer Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter your address" required>
+
+            <label for="food-name">Food Name:</label>
+            <select id="food-name" name="food-name" required>
+              <option value="burger">Burger</option>
+              <option value="pizza">Pizza</option>
+              <option value="fries">Fries</option>
+             
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <button type="submit" class="order-button">Apply Order</button>
+          </form>
+        </div>
+
+         <div class="menu">
+          <div class="menu-item">
+            <img src="../Images/food4.jpg" alt="Food 1" class="food-image">
+            <h3 class="">Burger</h3>
+            <p class="food-price">$5.99</p>
+          </div>
+          <div class="menu-item">
+            <img src="../Images/food5.jpg" alt="Food 2" class="food-image">
+            <h3 class="food-name">Pizza</h3>
+            <p class="food-price">$8.99</p>
+          </div>
+          <div class="menu-item">
+            <img src="../Images/food6.jpg" alt="Food 3" class="food-image">
+            <h3 class="food-name">Fries</h3>
+            <p class="food-price">$2.99</p>
+          </div>
+          
+        </div>
+
+  
+       
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  </div>
+
+</body>
+
+</html>

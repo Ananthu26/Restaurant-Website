@@ -1,0 +1,133 @@
+*{
+    background-color:rgba(255, 217, 0, 0.199);
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+header{
+    background: gold;
+    background-color: gold;
+
+}
+.divide_order_page{
+    
+    background: #ffef97;
+    z-index: 2000;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    /* background-color: #ffef97; */
+    background-color:#fce460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100% ;
+    margin: auto;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    width: 95%;
+    margin: auto;
+    
+  }
+  
+  /* Menu Section */
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: fit-content;
+    /* overflow: hidden; */
+  }
+  
+  .menu-item {
+    background-color: #fff09a;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+  
+  .food-image {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .food-name {
+    font-size: 20px;
+    font-family: "Galindo", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .food-price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-top: 5px;
+  }
+  
+  .order-form {
+    background-color: #ffffffa2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .order-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Galindo", sans-serif;
+    
+  }
+  
+  label {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    color:black;
+    font-family: "Galindo", sans-serif;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    font-size: 16px;
+  }
+  
+  button.order-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e74d3cc9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button.order-button:hover {
+    background-color: #e62914e8;
+  }
+  

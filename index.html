@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./Nav/Style_max800px.css">
+    <link rel="stylesheet" href="./Nav/style_min800px.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./gallery/gallery.css">
+    <link rel="stylesheet" href="./Cards/Cardstyle.css">
+
+
+</head>
+
+<body class="body">
+    <header class="nav-container">
+        <nav class="main-nav">
+            <img src="./Images/logo.png" id="logo" onclick="window.location.href='./index.html';">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i id="menu" class='bx bx-menu-alt-right'></i>
+                <i id="cancel" class='bx bx-x'></i>
+            </label>
+
+            <!-- Resposive akk and also make it sticky -->
+
+            <ul class="navbar">
+                <li><a href="./Menu/menu.html">MENUS</a></li>
+                <li><a href="">CATERING</a></li>
+                <li><a href="">LOCATION</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <!-- Button  Akkiyal kollam-->
+                <li id="button-side"><button><a href="./order_page/order_page.html">ORDER ONLINE</a></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- https://www.youtube.com/watch?v=j18CH0Grhbw -->
+    <div class="slider-frame">
+        <div class="slide-image">
+            <div class="img-container">
+                <img src="./Images/burger_Designer.jpeg">
+            </div>
+            <div class="img-container">
+                <img src="./Images/pizzaDesigner.jpeg">
+            </div>
+            <div class="img-container">
+                <img src="./Images/noodles_Designer.jpeg">
+            </div>
+            <div class="img-container">
+                <img src="./Images/fries_Designer.jpeg">
+            </div>
+            <div class="img-container">
+                <img src="./Images/TacoDesigner.jpeg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/85291IMG_3966_web.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5%27"
+                alt="Card Image 1">
+            <div class="card-content">
+                <h2>SPECIALS</h2>
+                <p>Check out our rotating specialty sandwiches and limited drops, including a Limited Time Only</p>
+            </div>
+            <button class="card-button"><a href="./Menu/menu.html">SEE THE SPECIALS</a></button>
+            <!-- LINK THIS EXACTLY TO NAV MENU -->
+        </div>
+
+        <div class="card">
+            <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/98058IMG_1800.JPG?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                alt="Card Image 2">
+            <div class="card-content">
+                <h2>SUPPER CLUB</h2>
+                <p>Presenting a new 4-course dine-in experience that goes beyond our regular offerings and puts a smoky
+                    spin on gourmet cuisine.</p>
+            </div>
+            <button class="card-button"><a href="./Menu/menu.html">SEE THE SPECIALS</a></button>
+            <!-- LINK THIS EXACTLY TO NAV MENU -->
+
+        </div>
+
+    </div>
+
+
+
+
+    <section class="menuss">
+
+
+
+        <div class="container">
+
+            <div class="left-grid">
+                <h2 id="menuid">MENU</h2>
+                <p id="menu_p1">Welcome to AD Restaurant, where American BBQ meets global flavors, crafted entirely
+                    in-house. Our award-winning BBQ celebrates classic traditions with a twist—combining the rich, smoky
+                    depth of a true cookout with the elevated, nuanced flavors of fine dining.</p>
+                <p id="menu_p2">Every dish we serve is lovingly made from scratch by a team passionate about quality and
+                    flavor. Experience the best of BBQ from around the world, all on one plate. With endless flavor
+                    combinations to explore, you could spend a lifetime savoring our creations—we hope you will.</p>
+                <input type="button" value="TRY MENU" id="gridbtn" onclick="window.location.href='./Menu/menu.html'">
+            </div>
+            <div class="right-grid">
+                <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/58030220826_FedPig_A7_BCRcombo1_0264.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                    alt="grid_menuImage">
+            </div>
+        </div>
+        <div class="container1">
+
+            <div class="left-grid1">
+                <h2 id="menuid">CATERING</h2>
+                <p id="menu_p1">We bring the BBQ experience to you! Whether it's a backyard gathering, holiday
+                    celebration, or large-scale event, our Barbecrew and catering truck offer a diverse menu. From
+                    expertly crafted sides to vegan, vegetarian, and classic BBQ options, we serve flavors from across
+                    America and around the world.</p>
+
+                <input type="button" value="EXPLORE CATERING" id="gridbtn" onclick="window.location.href='./Menu/menu.html'">
+            </div>
+            <div class="right-grid1">
+                <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/36463220826_FedPig_A6_FavFootball_0219.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                    alt="grid_menuImage">
+            </div>
+        </div>
+    </section>
+    <footer class="lastminpatch">
+        <div class="footr">
+            <div class="foot_all">
+                <div class="runingthing">
+                    <span style="font-size:11px ;">Spaghetti Carbonara</span>
+                    <span style="font-size:20px ;">Margherita Pizza</span>
+                    <span style="font-size:16px ;">Chicken Biryani</span>
+                    <span style="font-size:13px ;">Sushi Rolls</span>
+                    <span style="font-size:22px ;">Beef Tacos</span>
+                    <span style="font-size:16px ;">Pad Thai</span>
+                    <span style="font-size:14px ;">Vegetable Stir Fry</span>
+                    <span style="font-size:23px ;">Grilled Salmon</span>
+                    <span style="font-size:17px ;">Chocolate Cake</span>
+                    <span style="font-size:14px ;">Cheeseburger</span>
+                    <span style="font-size:11px ;">Spaghetti Carbonara</span>
+                    <span style="font-size:20px ;">Margherita Pizza</span>
+                    <span style="font-size:16px ;">Chicken Biryani</span>
+                    <span style="font-size:13px ;">Sushi Rolls</span>
+                    <span style="font-size:22px ;">Beef Tacos</span>
+                    <span style="font-size:16px ;">Pad Thai</span>
+                    <span style="font-size:14px ;">Vegetable Stir Fry</span>
+                    <span style="font-size:23px ;">Grilled Salmon</span>
+                    <span style="font-size:17px ;">Chocolate Cake</span>
+                    <span style="font-size:14px ;">Cheeseburger</span>
+                    <span style="font-size:11px ;">Spaghetti Carbonara</span>
+                    <span style="font-size:20px ;">Margherita Pizza</span>
+                    <span style="font-size:16px ;">Chicken Biryani</span>
+                    <span style="font-size:13px ;">Sushi Rolls</span>
+                    <span style="font-size:22px ;">Beef Tacos</span>
+                    <span style="font-size:16px ;">Pad Thai</span>
+                    <span style="font-size:14px ;">Vegetable Stir Fry</span>
+                    <span style="font-size:23px ;">Grilled Salmon</span>
+                    <span style="font-size:17px ;">Chocolate Cake</span>
+                    <span style="font-size:14px ;">Cheeseburger</span>
+                    <span style="font-size:11px ;">Spaghetti Carbonara</span>
+                    <span style="font-size:20px ;">Margherita Pizza</span>
+                    <span style="font-size:16px ;">Chicken Biryani</span>
+                    <span style="font-size:13px ;">Sushi Rolls</span>
+                    <span style="font-size:22px ;">Beef Tacos</span>
+                    <span style="font-size:16px ;">Pad Thai</span>
+                    <span style="font-size:14px ;">Vegetable Stir Fry</span>
+                    <span style="font-size:23px ;">Grilled Salmon</span>
+                    <span style="font-size:17px ;">Chocolate Cake</span>
+                    <span style="font-size:14px ;">Cheeseburger</span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+        <div class="contact_us">
+            <a id="contact_us" href="./order_page/order_page.html">ORDER NOW!!</a>
+        </div>
+    
+
+
+
+
+
+
+</body>
+
+</html>
