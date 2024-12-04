@@ -16,13 +16,13 @@
 
 ## :checkered_flag: Welcome Page ##
 
--consists of github profile Image and Bio  
+-consists of Slideshow Menu-Card and Grid-Menu 
 ![Screenshot](./Screenshots/SlideShow-SS.png)
 ![Screenshot](./Screenshots/Menu-Cards-SS.png)
 ![Screenshot](Screenshots/Grid-Menu-SS.png)
 
 ## Menu
--Top Foods . Nothing Special!!
+-Top Foods . Everything Special!!
 ![Screenshot](./Screenshots/MenuSS.png)
 
 ## Order Page
