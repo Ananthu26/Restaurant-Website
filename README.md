@@ -1,6 +1,6 @@
 <div align="center">
   
-<h1>Restraunt-Websitet</h1>
+<h1>Restaurant-Website</h1>
 
 </div>
   &#xa0;
@@ -27,6 +27,8 @@
 
 ## Order Page
 ![Screenshot](./Screenshots/OrderpageSS.png)
+
+![Screenshot](./Screenshots/Footer.png)
 
 
 
