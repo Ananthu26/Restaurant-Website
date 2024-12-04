@@ -15,19 +15,16 @@
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## :checkered_flag: Welcome Page ##
-
 -consists of Slideshow Menu-Card and Grid-Menu 
 ![Screenshot](./Screenshots/SlideShow-SS.png)
 ![Screenshot](./Screenshots/Menu-Cards-SS.png)
 ![Screenshot](Screenshots/Grid-Menu-SS.png)
-
 ## Menu
 -Top Foods . Everything Special!!
 ![Screenshot](./Screenshots/MenuSS.png)
-
 ## Order Page
 ![Screenshot](./Screenshots/OrderpageSS.png)
-
+## Marquee Running Footer with Button(&Hover)
 ![Screenshot](./Screenshots/Footer.png)
 
 
