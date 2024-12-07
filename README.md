@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🍽️ Gourmet Delights Restaurant</h1>
+  <h1>🍽️Restaurant-Website</h1>
   <p><em>Crafting culinary experiences, one line of code at a time.</em></p>
   
   [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
